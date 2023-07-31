@@ -1,0 +1,5 @@
+{
+  "watch": ["server", "app", "public"],
+  "exec": "ts-node --cwd ./server --project ../tsconfig.server.json index.ts",
+  "ext": "js ts tsx"
+}
